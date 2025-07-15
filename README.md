@@ -6,4 +6,8 @@ The "Ilastik" folder contains the compressed classifier file "PlaqueAssay.ilp.zi
 
 <img width="422" height="191" alt="image" src="https://github.com/user-attachments/assets/304c421a-0cb0-47dc-a628-7c75b2779e30" />
 
+## Segmentation processing
 
+The file ".ipynb" contains the code to process the Ilastik segmentations (which only separate the image in background and plaques) into instance segmentations of plaques. Below is an example of the output from running the code and plotting the processed segmentation:
+
+<img width="2700" height="1500" alt="Watershed_example" src="https://github.com/user-attachments/assets/4bd126bb-6875-47a1-8812-b70c008ff88b" />
