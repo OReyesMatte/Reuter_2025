@@ -15,7 +15,7 @@ Two data files were used for the analysis of this experiment
 
 
 2) Experiment 2: 30-min transfer regime
-Phage plaque and bacteria colony counting data for five independent selection lines of phage PhiX174 evolved during 30-min transfers. Each passage day consisted of 5 consecutive transfers with four 30-min transfers followed by one 3-h transfer. For transfers 1-4 of each passage day, phages were quantified by spot tests; phages after each 5th transfer were quantified by plaque assay after chloroform extraction. Data was used to monitor the MOI input for each transfer. We did not make a figure in the manuscript for this data set. Data was taken for 10 passage days, corresponding to 40 30-min transfers and 10 3-h transfers.
+Phage plaque and bacteria colony counting data for five independent selection lines of phage PhiX174 evolved during 30-min transfers. Each passage day consisted of 4 consecutive transfers with four 30-min transfers followed by one 3-h amplification step. For transfers 1-4 of each passage day, phages were quantified by spot tests; phages after the amplification step were quantified by plaque assay after chloroform extraction. Data was used to monitor the MOI input for each transfer. We did not make a figure in the manuscript for this data set. Data was taken for 10 passage days, corresponding to 40 30-min transfers and 10 3-h transfers.
 - data set: “experiment_2_30_min_transfer.csv”, containing raw phage and bacteria counts for each transfer. 
 
 3) Experiment 3: Adsorption constant analysis
