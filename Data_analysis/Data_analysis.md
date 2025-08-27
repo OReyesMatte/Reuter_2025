@@ -1,4 +1,4 @@
-This folder contains the HTML file “Reuter_et_al_2025_analysis_manuscript.html” of the R code used for data analysis and visualisation for the manuscript Reuter et al. “Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in PhiX174”.
+This folder contains the HTML file “Reuter_et_al_2025_analysis_manuscript.html” of the R code used for data analysis and visualisation for the manuscript Reuter et al. “Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in PhiX174”. We suggest downloading and then opening the HTML file on your browser.
 
 Packages required to perform the analysis are found in an R chunk at the beginning of the script.
 
