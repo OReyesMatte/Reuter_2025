@@ -8,5 +8,6 @@ The different folders correspond to different types of analysis:
 - Folder "Plaque_analysis": Contains code for the image analysis (Segmentation model, code for processing segmentation results) of plaque plaques used to extract plaque morphology data (i.e. plaque area and turbidity)
 - Folder "Simulations": Contains code for the simulations of the transfer regimes
 
-If you used any of our code, or use its information, please cite the paper:
+If you used any of our code, or use its information, please cite the paper: 
 
+Reuter, M., Sieber, M., Reyes-Matte, O., Vasilleiou, C., Böhmker, C., Romeyer-Dherbey, J., Bertels, F., & López-Garrido, J. (2025) Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in ΦX174, doi: https://doi.org/10.1101/2025.09.09.674889
