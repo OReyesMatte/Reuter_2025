@@ -3,15 +3,15 @@ This folder contains the HTML file “Reuter_et_al_2025_analysis_manuscript.html
 Packages required to perform the analysis are found in an R chunk at the beginning of the script.
 
 Data from seven different experiments or assays were acquired and analysed for this manuscript. The experiments as well as the data sets used for the analysis are specified in the code as well as in this file below. 
-All data files are available on Zenodo: (REF)
+All data files are available on Zenodo: 10.5281/zenodo.17076220
 
 In the following, the individual experiments and the corresponding raw data sets are specified.
 
 1) Experiment 1: 3-hour transfer regime
-Phage plaque and bacteria colony counting data for five independent selection lines of phage PhiX174 evolved during 3-hour transfers. Counting data was recorded for each transfer until the first heritable small plaques appeared when plated. Data was used to calculate the estimated frequency of small plaque mutants in the phage population at the first transfer; heritable small plaques were isolated. Figure Fig. S2A was generated based on this data. 
+Phage plaque and bacteria colony counting data for five independent selection lines of phage PhiX174 evolved during 3-hour transfers. Counting data was recorded for each transfer until the first heritable small plaques appeared when plated. Data was used to calculate the estimated frequency of small plaque mutants in the phage population at the first transfer; heritable small plaques were isolated. Figure Fig. S5A was generated based on this data. 
 Two data files were used for the analysis of this experiment
 - data set 1: “experiment_1_3_h_transfers.csv”; containing raw phage and bacteria counts for each transfer. Data was used to monitor the MOI input for each transfer. 
-- data set 2: “experiment_1_3_h_transfers_small_plaque_frequency.csv”; containing frequencies of heritable small plaques isolated compared to the total number of plaques at the last transfer. This data was used to calculate the estimated frequency of small plaque mutants in the phage population at the first transfer, at which small plaques were observed. The data set was used to generate Figure Fig. S2A
+- data set 2: “experiment_1_3_h_transfers_small_plaque_frequency.csv”; containing frequencies of heritable small plaques isolated compared to the total number of plaques at the last transfer. This data was used to calculate the estimated frequency of small plaque mutants in the phage population at the first transfer, at which small plaques were observed. The data set was used to generate Figure Fig. S5A
 
 
 2) Experiment 2: 30-min transfer regime
@@ -23,17 +23,22 @@ Phage plaque and bacteria counting data during a 6-minute adsorption period to d
 - data set: “experiment_3_adsorption_assay.csv”, containing raw phage and bacteria counts of multiple experimental replicates for each phage genotype
 
 4) Experiment 4: Image analysis of plaque assays
-Data for plaque area and turbidity extracted from the image analysis found in the folder “Plaque_analysis” to visualise morphology differences between phage genotypes. Four independent plaque assay plates were imaged for each phage genotype ancestor, F(T101A), F(G322D), and F(S427*) for image analysis. The data set was used to generate figures Fig. 3B and Fig. S4
+Data for plaque area and turbidity extracted from the image analysis found in the folder “Plaque_analysis” to visualise morphology differences between phage genotypes. Four independent plaque assay plates were imaged for each phage genotype ancestor, F(T101A), F(G322D), and F(S427*) for image analysis. The data set was used to generate figures Fig. 3B and Fig. S7
 -data set: “experiment_4_plaque_image_analysis.csv”; containing area and turbidity values extracted from the image analysis described in folder “Plaque_analysis”
 
 5) Experiment 5: Free phages transferred during 30-minute transfer experiment 
-Phage and bacterial counting data for multiple 30-min transfers for phage genotypes ancestor and F(T101A). Free phages were quantified at the end of each 30-min transfer to test the simulation prediction of slow-adsorbers (here F(T101A)) being present at higher rates as free phages at the moment of transfer. Data was used to generate figure Fig. 4D.
+Phage and bacterial counting data for multiple 30-min transfers for phage genotypes ancestor and F(T101A). Free phages were quantified at the end of each 30-min transfer to test the simulation prediction of slow-adsorbers (here F(T101A)) being present at higher rates as free phages at the moment of transfer. Data was used to generate figure Fig. 4D and Fig. S9.
 - data set: “experiment_5_30_min_free_phages.csv”; containing raw free phage and bacteria counts
 
 6) Experiment 6: Decay analysis
-Phage and bacteria counts during a long, host-limiting infection period (< 3 hours) to investigate phage population dynamics of phage genotypes ancestor, F(T101A), F(G322D), and F(S427*) with special emphasis on the decay period. Data was used to generate figures Fig. 5B and Fig. S6.
+Phage and bacteria counts during a long, host-limiting infection period (< 3 hours) to investigate phage population dynamics of phage genotypes ancestor, F(T101A), F(G322D), and F(S427*) with special emphasis on the decay period. Data was used to generate figures Fig. 5B and Fig. S12.
 -data set: “experiment_6_decay_analysis.csv”; containing raw phage and bacteria counts
 
 7) Experiment 7: One-step growth curve of ancestral phage
-Phage and bacteria counts during the eclipse and rise period of one infection cycle of ancestral phage PhiX174. This data was used to estimate the burst size and lysis time of the ancestral phage. Data was used to generate Figure Fig. S3.
+Phage and bacteria counts during the eclipse and rise period of one infection cycle of ancestral phage PhiX174. This data was used to estimate the burst size and lysis time of the ancestral phage. Data was used to generate Figure Fig. S6.
 - data set: “experiment_7_OSGC_WT.csv”; containing raw phage and bacteria counts
+
+8) Experiment 8: Ancestral phage titers 30-minutes and 180 minutes post infection initiation
+The experiment was done the same as stated in Experiment 6 for two additional replicates to visualize titer variations within a sampling time point between biological replicates
+Replicate 1 data was taken from experiment 6. The data was used to generate supplementary figure Fig. S2
+- data set: "experiment_8_phage_titer_WT_30_180.csv"
