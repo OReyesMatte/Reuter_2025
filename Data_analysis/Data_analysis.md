@@ -38,6 +38,7 @@ Phage and bacteria counts during a long, host-limiting infection period (< 3 hou
 Phage and bacteria counts during the eclipse and rise period of one infection cycle of ancestral phage PhiX174. This data was used to estimate the burst size and lysis time of the ancestral phage. Data was used to generate Figure Fig. S6.
 - data set: “experiment_7_OSGC_WT.csv”; containing raw phage and bacteria counts
 
+--> Experiment 8 was not used in the final manuscript:
 8) Experiment 8: Ancestral phage titers 30-minutes and 180 minutes post infection initiation
 The experiment was done the same as stated in Experiment 6 for two additional replicates to visualize titer variations within a sampling time point between biological replicates
 Replicate 1 data was taken from experiment 6. The data was used to generate supplementary figure Fig. S2
