@@ -1,6 +1,6 @@
 import numpy as np
-from ddeint import ddeint
 import multiprocessing as mp
+from ddeint import ddeint
 
 # default model parameters
 model_parameters = {
