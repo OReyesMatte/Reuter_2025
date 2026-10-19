@@ -1,4 +1,4 @@
-# Reuter 2025
+# Reuter et al. 2026
 Here's the code of the paper "Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in ΦX174" by M. Reuter et al.
 
 Inside each folder there's a `.md` file that has corresponding details for each analysis type
@@ -10,6 +10,6 @@ The different folders correspond to different types of analysis:
 
 If you used any of our code, or use its information, please cite the paper: 
 
-Reuter, M., Sieber, M., Reyes-Matte, O., Vasilleiou, C., Böhmker, C., Romeyer-Dherbey, J., Bertels, F., & López-Garrido, J. (2025) Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in ΦX174, doi: https://doi.org/10.1101/2025.09.09.674889
+Reuter, M., Sieber, M., Reyes-Matte, O., Vasilleiou, C., Böhmker, C., Romeyer-Dherbey, J., Bertels, F., & López-Garrido, J. (2026) [Single capsid mutations modulating phage adsorption, persistence, and plaque morphology shape evolutionary trajectories in ΦX174](https://academic.oup.com/ve/article/12/1/veag022/8586503)
 
 Raw data is found in Zenodo: 10.5281/zenodo.17076220
